@@ -13,7 +13,8 @@ git clone https://github.com/higsch/svelte-d3-training.git
 // go into the new directory
 cd svelte-d3-training
 
-// goto example project, then:
+// goto example project
+cd circles
 
 // install the dependencies
 npm i

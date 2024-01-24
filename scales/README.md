@@ -1,16 +1,20 @@
-# Svelte + D3 in Vite Starter
+# Scales and responsiveness
 
-This template should help get you started developing with Svelte + D3 in Vite.
+![Project preview](./preview.png)
+
 
 ## Run
 
 ```
 // clone the git repository to your local system
 // optional: fork this repository before cloning
-git clone https://github.com/higsch/svelte-d3-starter.git
+git clone https://github.com/higsch/svelte-d3-training.git
 
 // go into the new directory
-cd svelte-d3-starter
+cd svelte-d3-training
+
+// goto example project
+cd scales
 
 // install the dependencies
 npm i
