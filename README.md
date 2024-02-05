@@ -6,3 +6,5 @@ Small Svelte + D3 projects
 ## [Scales and responsiveness](./scales)
 
 ## [Components](./components)
+
+## [Canvas](./canvas)
