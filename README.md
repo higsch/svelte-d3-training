@@ -8,3 +8,5 @@ Small Svelte + D3 projects
 ## [Components](./components)
 
 ## [Canvas](./canvas)
+
+## [Voronoi](./voronoi)
