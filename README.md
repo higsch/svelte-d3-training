@@ -10,3 +10,7 @@ Small Svelte + D3 projects
 ## [Canvas](./canvas)
 
 ## [Voronoi](./voronoi)
+
+## [Map](./map)
+
+## [Map-zoom](./map-zoom)

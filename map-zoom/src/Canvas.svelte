@@ -17,9 +17,10 @@
 	let ctx;
 	let pendingInvalidation = false;
 	let frameId;
+	let devicePixelRatio = 1;
 
 	function scaleCanvas(canvas, ctx, width, height) {
-		const devicePixelRatio = window.devicePixelRatio || 1;
+		devicePixelRatio = window.devicePixelRatio || 1;
 
 		canvas.width = width * devicePixelRatio;
 		canvas.height = height * devicePixelRatio;
@@ -46,8 +47,8 @@
 	}
 
 	function handleMouseMove(e) {
-		const { layerX, layerY } = e;
-		const { data } = ctx.getImageData(layerX, layerY, 1, 1);
+		const { layerX: x, layerY: y } = e;
+		const { data } = ctx.getImageData(x * devicePixelRatio, y * devicePixelRatio, 1, 1);
 		const [r, g, b] = data;
 		if (r + g + b === 0) {
 			hoveredColorId = undefined;
