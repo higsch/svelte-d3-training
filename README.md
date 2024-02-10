@@ -14,3 +14,5 @@ Small Svelte + D3 projects
 ## [Map](./map)
 
 ## [Map-zoom](./map-zoom)
+
+## [Phyllotaxis](./phyllotaxis)
