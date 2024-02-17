@@ -18,3 +18,5 @@ Small Svelte + D3 projects
 ## [Phyllotaxis](./phyllotaxis)
 
 ## [Regl-basics](./regl-basics)
+
+## [Loading-data](./loading-data)
