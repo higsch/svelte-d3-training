@@ -2,7 +2,7 @@
 import { readable, derived } from 'svelte/store';
 import { csv, autoType, groups } from 'd3';
 
-const dataPath = 'https://raw.githubusercontent.com/higsch/data/main/daily_surface_temperature.csv';
+const dataPath = 'https://raw.githubusercontent.com/higsch/data/main/daily_surface_temperatures/daily_surface_temperatures.csv';
 
 export const data = readable([], async (set) => {
   const loadedData = await csv(dataPath, autoType);

@@ -20,3 +20,5 @@ Small Svelte + D3 projects
 ## [Regl-basics](./regl-basics)
 
 ## [Loading-data](./loading-data)
+
+## [Lines](./lines)
